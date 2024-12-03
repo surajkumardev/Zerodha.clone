@@ -1,0 +1,369 @@
+*{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    color: #666;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#hamburger{
+
+    padding-top:20px;
+    transition: 0.2s ease-in;
+}
+#hamburger:hover{
+    color: #666;
+}
+#img{
+    width: 175px;
+    padding: 20px;
+}
+.navbar-left{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.navbar-left span{
+    padding: 20px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+}
+.imgg{
+    width:800px;
+    display: flex;
+    justify-content: center;
+    margin:50px; 
+}
+.text{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+    font-weight: 500;
+    font-size: large;
+    
+}
+.sp{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0; 
+    font-size: 1.25rem; 
+    font-weight: 400; 
+    margin-top:10px; 
+    margin-bottom: 15px;
+
+}
+/* #btn{
+    background-color: #387ed1;
+    color: #fff;    
+    border-radius: 3px;
+    height: 80px;
+    width: 130px;
+    border: 1px solid rgba(0, 0, 0, 0) !important; 
+    text-align: center;
+    cursor: pointer;
+    animation: 0.2s ease-in;
+    padding-bottom: 10px;
+    padding-top: 30px;
+
+}
+#btn:hover{
+    background-color: black;
+
+} */
+
+button a  {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+
+  }
+  button a {
+    color: #387ed1;
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+  }
+  button a:hover {
+    cursor: pointer;
+    color: #444;
+  }
+  .button {
+    background-color: #387ed1;
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+  }
+  .button:hover {
+    border: 1px solid rgba(0, 0, 0, 0);
+    background: #222;
+    color: #fff !important;
+  }
+ /*ecosystem*/
+ .ecosystem{
+    display: flex;
+    justify-content:center;
+    margin-top:30px;
+    padding: 0px 20px 20px 30px;
+    text-align: left;
+    color: #424242;
+}
+.left-ecosystem{
+    padding-right: 250px;
+    padding-left: 10px;
+    margin-left: 150px;
+
+
+
+}
+.right-ecosystem img{
+    height: 550px;
+    width: 650px;
+    padding-right: 100px
+}
+h2{
+    padding-bottom: 40px;
+    font-weight: 700;
+}
+p{
+    padding-top: 5px;
+    padding-bottom: 32px;
+}
+.row-between{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding:10px 10px 10px 10px ;  */
+
+}
+.testimonal {
+    margin-top: 60px;
+    display: flex; /* Use flexbox on the parent container */
+    justify-content: center; /* Horizontally center the image */
+    align-items: center; /* Vertically center the image if needed */
+}
+
+.testimonal img {
+    height: 40px;
+    width: 710px;
+    margin-bottom: 100px;
+}
+
+.pricing{
+    margin-top:30px;
+    text-align: left;
+    color: #424242;
+    display: flex; /* Use flexbox on the parent container */
+    justify-content: center; /* Horizontally center the image */
+    align-items: center; /* Vertically center the image if needed */
+    padding-left:20px;
+    padding-bottom: 120px;
+    padding-right: 20px;
+
+}
+.left-pricing{
+    padding-right: 100px;
+    padding-left:150px;
+}
+.left-pricing h2{
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.5;
+
+}
+
+.left-pricing p{
+    padding-bottom: 5px;
+    line-height: 1.5;
+    margin-top: 0px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.left-pricing a{
+    color: #387ed1;
+    text-decoration: none; 
+}
+.inbetweenn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:-20px;
+}
+
+.right-pricing{
+    margin-right: 150px;
+}
+
+.varasity{
+    display: flex; 
+    justify-content: space-evenly ;
+    padding:0px 20px 100px 20px; 
+}
+.left-varasity img{
+    height:242px ;
+    width: 320px;
+}
+.left-varasity{
+        padding-left: 150px;
+        padding-right: 100px;
+
+}
+.right-varasity{
+    margin-right: 150px;
+    /* padding-right: 50px; */
+    margin-left: 100px;
+}
+.right-varasity h2{
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+
+}
+.right-varasity a{
+        color: #387ed1;
+        text-decoration: none; 
+    
+}
+
+
+.right-varasity p{
+    padding-bottom: 5px;
+    line-height: 1.5;
+    margin-top: 0px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 16px; 
+    margin-bottom: 15px;
+
+}
+.between-varasity{
+    padding: 50px;
+    display: flex;
+
+}
+
+.kite{
+}
+.Open-ac{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+    font-weight: 500;
+    font-size: large;
+}
+.open-sp{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0; 
+    font-size: 1.25rem; 
+    font-weight: 400; 
+    margin-top:10px; 
+    margin-bottom: 15px;
+}
+
+
+.btn-kite a  {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .btn-kite {
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+
+  }
+.btn-kite a {
+    color: #387ed1;
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+  }
+  .between-varasity a:hover {
+    cursor: pointer;
+    color: #444;
+  }
+  .btn-kite {
+    background-color: #387ed1;
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+  }
+  .btn-kite:hover {
+    border: 1px solid rgba(0, 0, 0, 0);
+    background: #222;
+    color: #fff !important;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border-radius:5px solid #666;
+
+}
